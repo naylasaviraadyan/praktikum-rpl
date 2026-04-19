@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 id="welcome"></h1>
+
+    <h2>📋 Daftar Menu</h2>
+
+    <ul class="menu">
+        <li>
+            Nasi Goreng - Rp15.000 
+            <input type="number" id="nasi" value="0" min="0">
+        </li>
+        <li>
+            Mie Goreng - Rp12.000 
+            <input type="number" id="mie" value="0" min="0">
+        </li>
+        <li>
+            Ayam Goreng - Rp18.000 
+            <input type="number" id="ayam" value="0" min="0">
+        </li>
+        <li>
+            Soto Ayam - Rp14.000 
+            <input type="number" id="soto" value="0" min="0">
+        </li>
+        <li>
+            Bakso - Rp13.000 
+            <input type="number" id="bakso" value="0" min="0">
+        </li>
+        <li>
+            Es Teh - Rp5.000 
+            <input type="number" id="esteh" value="0" min="0">
+        </li>
+        <li>
+            Es Jeruk - Rp7.000 
+            <input type="number" id="jeruk" value="0" min="0">
+        </li>
+    </ul>
+
+    <br>
+
+    <button onclick="proses()">Lihat Struk</button>
+
+    <br><br>
+
+    <button onclick="kembali()">Kembali</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
